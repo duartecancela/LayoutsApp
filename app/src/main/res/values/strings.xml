@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LayoutsApp</string>
+    <string name="text_view_add_constraint_label">Add Constraint Activity</string>
+    <string name="text_view_parent_position_label">Parent Position Activity</string>
+    <string name="text_view_order_position_label">Order Position Activity</string>
+    <string name="text_view_alignment_label">Alignment Activity</string>
+    <string name="text_view_baseline_alignment_label"> Baseline Alignment Activity</string>
+    <string name="text_view_overview_label">Overview Activity</string>
+    <string name="text_view_main_label">Main Activity</string>
+    <string name="button_add_constraint">Add Constraint</string>
+    <string name="button_parent_position">Parent Position</string>
+    <string name="button_order_position">Order Position</string>
+    <string name="button_alignment">Alignment</string>
+    <string name="button_baseline_alignment">Baseline Alignment</string>
+    <string name="button_overview">Overview</string>
+    <string name="text_view_parent_position">A</string>
+    <string name="text_view_order_position_a">A</string>
+    <string name="text_view_order_position_b">B</string>
+    <string name="text_view_order_position_c">C</string>
+    <string name="text_view_alignment_a">A</string>
+    <string name="text_view_alignment_b">B</string>
+    <string name="text_view_baseline_alignment_a">A</string>
+    <string name="text_view_baseline_alignment_b">B</string>
+    <string name="text_view_overview_a">A</string>
+    <string name="text_view_overview_b">B</string>
+    <string name="text_view_overview_c">C</string>
+    <string name="image_add_constraint_logo">Logo</string>
+
+</resources>

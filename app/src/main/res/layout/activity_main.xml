@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewMainLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_view_main_label"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddConstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="onClickAddConstraint"
+        android:text="@string/button_add_constraint"
+        app:layout_constraintEnd_toEndOf="@+id/textViewMainLabel"
+        app:layout_constraintStart_toStartOf="@+id/textViewMainLabel"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMainLabel" />
+
+    <Button
+        android:id="@+id/buttonParentPOsition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickParentPosition"
+        android:text="@string/button_parent_position"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAddConstraint"
+        app:layout_constraintStart_toStartOf="@+id/buttonAddConstraint"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddConstraint" />
+
+    <Button
+        android:id="@+id/buttonOrderPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickOrderPosition"
+        android:text="@string/button_order_position"
+        app:layout_constraintEnd_toEndOf="@+id/buttonParentPOsition"
+        app:layout_constraintStart_toStartOf="@+id/buttonParentPOsition"
+        app:layout_constraintTop_toBottomOf="@+id/buttonParentPOsition" />
+
+    <Button
+        android:id="@+id/buttonAlignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickAlignment"
+        android:text="@string/button_alignment"
+        app:layout_constraintEnd_toEndOf="@+id/buttonOrderPosition"
+        app:layout_constraintStart_toStartOf="@+id/buttonOrderPosition"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOrderPosition" />
+
+    <Button
+        android:id="@+id/buttonBaselineAlignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickBaselineAlignment"
+        android:text="@string/button_baseline_alignment"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAlignment"
+        app:layout_constraintStart_toStartOf="@+id/buttonAlignment"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlignment" />
+
+    <Button
+        android:id="@+id/buttonOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickOverview"
+        android:text="@string/button_overview"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBaselineAlignment"
+        app:layout_constraintStart_toStartOf="@+id/buttonBaselineAlignment"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBaselineAlignment" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
